@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 models/recommendation_model.pkl filter=lfs diff=lfs merge=lfs -text
+models/inventory_model.pkl filter=lfs diff=lfs merge=lfs -text

@@ -179,3 +179,13 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# RetailIQ local configuration and generated files
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+*.log
+.venv/
+venv/
+frontend/src/pages/shop.zip
